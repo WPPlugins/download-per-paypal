@@ -1,0 +1,16 @@
+#toplevel_page_DownloadPerPaypal div.wp-menu-image {
+background: transparent url(downloadPerPaypal_logo_small.png) no-repeat 0 0;
+}
+
+#toplevel_page_DownloadPerPaypal:hover div.wp-menu-image,
+#toplevel_page_DownloadPerPaypal.current div.wp-menu-image {
+background: transparent url(downloadPerPaypal_logo_small.png) no-repeat scroll 0 -28px;
+}
+
+#icon-downloadPerPaypal {
+background:url(downloadPerPaypal_logo_big.png) no-repeat transparent;
+}
+
+#icon-downloadPerPaypal:hover {
+background-position: 0 -36px;
+}

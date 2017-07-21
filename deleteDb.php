@@ -1,0 +1,1 @@
+<?phprequire( '../../../wp-blog-header.php' );$url = get_option('siteurl');$prefix = $wpdb->prefix;$table_name_dpp = $prefix . "downloadPerPaypal";$wpdb->query("TRUNCATE TABLE $table_name_dpp");header("location: $url"."/wp-admin/admin.php?page=DownloadPerPaypal");?>
